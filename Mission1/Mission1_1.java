@@ -33,6 +33,7 @@ public class Mission1_1 {
             }
             writer.write("\n</table>");
             writer.write("\n</body>");
+            writer.write("\n</html>");
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
