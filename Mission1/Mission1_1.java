@@ -8,8 +8,9 @@ public class Mission1_1 {
         try {
             File file = new File("property.html");
             BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-            writer.write("<head>\n");
-            writer.write("<h2>자바 환경정보</h2>");
+            writer.write("<html>");
+            writer.write("\n<head>");
+            writer.write("\n<h2>자바 환경정보</h2>");
             writer.write("\n\t <meta charset=\"UTF-8\"/>");
             writer.write("\n\t <style>");
             writer.write("\n\t\t table { border-collapse: collapse; width: 100%; }");
