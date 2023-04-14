@@ -42,6 +42,6 @@ public class Mission1_2 {
         ArrayList<Integer> coord = list.get(idx);
         int x_opt = coord.get(0);
         int y_opt = coord.get(1);
-        System.out.printf("(%d, %d) => %f", x_opt, y_opt, min);
+        System.out.printf("(%d, %d) => %f%n", x_opt, y_opt, min);
     }
 }
